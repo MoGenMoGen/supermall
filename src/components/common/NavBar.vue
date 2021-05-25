@@ -24,6 +24,7 @@ export default {
     display: flex;
     line-height: 44px;
     height: 44px;
+    box-sizing: 0 1px 1px rgba(100,100,100,.1);
     .left,.right {
         width: 60px;
 
@@ -31,6 +32,6 @@ export default {
     .center {
         flex:1;
     }
-    box-sizing: 0 1px 1px rgba(100,100,100,.1);
+    
 }
 </style>
